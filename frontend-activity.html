@@ -55,7 +55,7 @@
 
         </div>
       </div>
-
+      
       <div class="px-3 py-3">
         <table class="table mb-0 mx-auto" style="width: 65%;">
           <thead class="table-dark">
@@ -161,11 +161,81 @@
         </table>
       </div>
 
+      <div id="myCarousel" class="carousel slide px-3 py-3" data-bs-ride="carousel">
+  <!-- Indicators (optional) -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="height: 350px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTmd2aCcfzQMlZu3CHaGRvOw201L4cPpV5TDNDaRzwOOA&s=10"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 1">
+    </div>
+    <div class="carousel-item" style="height: 350px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSfj0ncGvr-mzgIJ0hQCuSC12bVduzgWszJrWkRggeiFQ&s=10"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 2">
+    </div>
+    <div class="carousel-item" style="height: 350px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3f93YXIUF9eWC7Wf51ginJD_-DS8FlQgCC04-RTry2A&s=10"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 3">
+    </div>
+    <div class="carousel-item" style="height: 350px;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMGKuyB0P3Ckxepe9dcPrN2j9rAuu9YtN0LTzkaoVqiA&s=10"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 4">
+    </div>
+    <div class="carousel-item" style="height: 350px;">
+      <img src="https://static.wikia.nocookie.net/marvel_dc/images/4/4f/Robin_Vol_3_13_Textless_Cruz_Variant.jpg/revision/latest/scale-to-width-down/1200?cb=20220429164649"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 5">
+    </div>
+    <div class="carousel-item" style="height: 350px;">
+      <img src="https://static.wikia.nocookie.net/marvelcrossroads/images/d/da/Jim-lee-batman.jpg/revision/latest?cb=20200330192232"
+           class="d-block w-100 h-100"
+           style="object-fit: contain; background-color: #000;"
+           alt="Slide 6">
     </div>
   </div>
 
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    </div>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <audio id="bgMusic" loop>
+  <source src="what-ive-done.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  document.addEventListener("click", function () {
+    const audio = document.getElementById("bgMusic");
+    audio.play();
+  }, { once: true });
+</script>
 </body>
 </html>
-# test
-
-#another test hello marielle
+       
